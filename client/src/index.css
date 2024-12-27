@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0e0e0e;
+  overflow-x: hidden !important;
+}
+.color {
+  color: #dac5a70d;
+  color: #988b7926;
+  color: #47403626;
+  color: #8c724bed;
+  color: #d0cac2;
+  color: #c8c1b6;
+  color: #5b3a29;
+  color: #201b16;
+  color: #c3ae91;
+}
