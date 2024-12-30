@@ -1,14 +1,14 @@
 function AboutMe() {
   return (
-    <div className="flex flex-col w-full h-full mt-24">
+    <div className="flex flex-col w-full h-full mt-24 max-sm:mt-10">
       <div className="flex items-center gap-2">
         <div className="w-[35px] h-[35px] rounded-full p-1 bg-coppergold border border-coppergold">
           <img src="/arrowdown.svg" alt="" className="w-full h-full" />
         </div>
         <h3 className="poppins text-lg font-light">ABOUT ME</h3>
       </div>
-      <div className="border border-coppergold bg-coppergold p-12 mt-8 w-full">
-        <h3 className="text-4xl leading-10 font-nunito font-light">
+      <div className="border border-coppergold bg-coppergold p-12 mt-8 w-full max-sm:p-5">
+        <h3 className="text-4xl leading-10 font-nunito font-light max-sm:text-2xl">
           From Construction to Code: My Journey as a Software Developer
         </h3>
         <p className="font-montserrat text-base font-light mt-3">
@@ -37,13 +37,15 @@ function AboutMe() {
           reach out!
         </p>
       </div>
-      <div className="w-full flex flex-wrap gap-5 justify-between mt-5">
-        <div className="border border-coppergold bg-coppergold w-[30%] flex justify-between items-center px-2">
+      <div className="w-full flex flex-wrap gap-5 justify-between mt-5 max-sm:flex-col max-sm:items-center">
+        <div className="border border-coppergold bg-coppergold w-[30%] flex justify-between items-center px-2 max-sm:min-w-[200px]">
           <div className="flex items-center gap-1">
             <div className="w-[30px] h-[30px] p-1">
               <img src="/github.svg" alt="" className="w-full h-full" />
             </div>
-            <h3 className="text-base font-light font-poppins">GITHUB</h3>
+            <h3 className="text-base font-light font-poppins max-sm:text-xs">
+              GITHUB
+            </h3>
           </div>
           <div className="w-[40px] h-[40px] p-2">
             <img
@@ -53,12 +55,14 @@ function AboutMe() {
             />
           </div>
         </div>
-        <div className="border border-coppergold bg-coppergold w-[30%] flex justify-between items-center px-2">
+        <div className="border border-coppergold bg-coppergold w-[30%] flex justify-between items-center px-2 max-sm:min-w-[200px]">
           <div className="flex items-center gap-1">
             <div className="w-[30px] h-[30px] p-2">
               <img src="/linkedin.svg" alt="" className="w-full h-full" />
             </div>
-            <h3 className="text-base font-light font-poppins">LINKEDIN</h3>
+            <h3 className="text-base font-light font-poppins max-sm:text-sm">
+              LINKEDIN
+            </h3>
           </div>
           <div className="w-[40px] h-[40px] p-2">
             <img
@@ -68,12 +72,14 @@ function AboutMe() {
             />
           </div>
         </div>
-        <div className="border border-coppergold bg-coppergold w-[30%] flex justify-between items-center px-2">
+        <div className="border border-coppergold bg-coppergold w-[30%] flex justify-between items-center px-2 max-sm:min-w-[200px]">
           <div className="flex items-center gap-1">
             <div className="w-[30px] h-[30px] p-1">
               <img src="/instagram.svg" alt="" className="w-full h-full" />
             </div>
-            <h3 className="text-base font-light font-poppins">INSTAGRAM</h3>
+            <h3 className="text-base font-light font-poppins max-sm:text-sm">
+              INSTAGRAM
+            </h3>
           </div>
           <div className="w-[40px] h-[40px] p-2">
             <img

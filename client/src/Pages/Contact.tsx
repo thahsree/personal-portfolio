@@ -6,7 +6,7 @@ function Contact() {
   }, []);
   return (
     <div className="w-full flex items-center justify-center min-h-[100vh]">
-      <div className="border border-coppergold bg-coppergold w-[700px] h-[500px] p-8 mt-10">
+      <div className="border border-coppergold bg-coppergold w-[700px] h-[500px] p-8 mt-10 max-sm:w-full max-sm:h-[70%]">
         <p className="text-sm font-nunito font-light text-coppergold2">
           CONTACT
         </p>
