@@ -7,7 +7,7 @@ function About() {
   }, []);
   return (
     <div className="relative w-full h-[200vh] flex">
-      <div className="sticky top-16 h-[500px] mt-56 w-[40%] px-12">
+      <div className="sticky top-32 h-[500px] mt-56 w-[40%] px-12">
         <div className="h-[500px] w-[500px]">
           <img
             src="/Me1.jpeg"

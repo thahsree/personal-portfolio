@@ -1,9 +1,10 @@
-import { Hero } from "../components";
-import Introduction from "../components/Introduction";
-import SelectedWorks from "../components/SelectedWorks";
-import Services from "../components/Services";
+import { useEffect } from "react";
+import { Hero, Introduction, SelectedWorks, Services } from "../components";
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="min-h-[100vh]">
       <Hero />

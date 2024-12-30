@@ -1,9 +1,9 @@
 function Services() {
   return (
-    <div className="flex px-16 text-textColor gap-7 justify-between">
+    <div className="flex px-16 text-textColor gap-7 justify-between max-md:flex-col max-sm:px-8">
       {/* WEB DEVELOPMENT */}
 
-      <div className="flex flex-col w-[35%] gap-2 border border-coppergold bg-coppergold p-10">
+      <div className="flex flex-col w-[35%] gap-2 border border-coppergold bg-coppergold p-10 max-sm:w-full">
         <p className="text-base text-coppergold2">01</p>
         <h3 className="text-3xl font-light font-suse">WEB DEVELOPMENT</h3>
         <p className="text-base font-extralight text-justify font-nunito mt-3">
@@ -22,7 +22,7 @@ function Services() {
 
       {/* WEB DESIGN */}
 
-      <div className="flex flex-col w-[35%] gap-2 border border-coppergold bg-coppergold p-10">
+      <div className="flex flex-col w-[35%] gap-2 border border-coppergold bg-coppergold p-10 max-sm:w-full">
         <p className="text-base text-coppergold2">02</p>
         <h3 className="text-3xl font-light font-suse">WEB DESIGN</h3>
         <p className="text-base font-extralight text-justify font-nunito mt-3">
@@ -39,7 +39,7 @@ function Services() {
 
       {/* SEO */}
 
-      <div className="flex flex-col w-[35%] gap-2 border border-coppergold bg-coppergold p-10">
+      <div className="flex flex-col w-[35%] gap-2 border border-coppergold bg-coppergold p-10 max-sm:w-full">
         <p className="text-base text-coppergold2">03</p>
         <h3 className="text-3xl font-light font-suse">CONTENT & SEO</h3>
         <p className="text-base font-extralight text-justify font-nunito mt-3">
