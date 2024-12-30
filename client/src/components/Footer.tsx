@@ -25,8 +25,8 @@ function Footer() {
   };
 
   return (
-    <div className="text-textColor flex flex-col w-full justify-between bg-coppergold mt-28 pb-32">
-      <div className="whitespace-nowrap animate-slideFooter w-max border border-coppergold bg-coppergold2 py-2 max-sm:py-1">
+    <div className="text-textColor flex flex-col w-full justify-between bg-coppergold mt-28 pb-32 overflow-hidden">
+      <div className="whitespace-nowrap animate-slideFooter w-max border border-coppergold bg-coppergold2 py-2 max-sm:py-1 overflow-hidden">
         {renderElements()}
       </div>
       <div className="px-12 flex flex-col max-sm:px-5">
