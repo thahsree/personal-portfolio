@@ -40,7 +40,7 @@ function Hero() {
     <div className="flex justify-center w-full px-4 py-32">
       <div className="text-headingColor  text-center flex flex-col gap-5 relative overflow-hidden py-6 max-sm:py-0">
         <div className="flex flex-col w-full items-center">
-          <h1 className="text-[130px] font-thin leading-none max-md:text-3xl">
+          <h1 className="text-[130px] font-thin leading-none max-sm:text-5xl">
             MERN STACK <br />
             Developer
           </h1>
