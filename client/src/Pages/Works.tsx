@@ -20,13 +20,43 @@ function Works() {
       id: 3,
       img: "/next-js.jpg",
       title: "E-COMM PROJECT",
-      work: "FRONT END",
+      work: "FRONTEND",
     },
     {
       id: 4,
       img: "/tourism.jpg",
       title: "TOURISM WEBSITE",
-      work: "FRONT END",
+      work: "FRONTEND",
+    },
+    {
+      id: 5,
+      img: "/promptopia.jpg",
+      title: "PROMPT GENERATING APP",
+      work: "FULL STACK",
+    },
+    {
+      id: 6,
+      img: "/weather.jpg",
+      title: "LIVE WEATHER APP",
+      work: "FULL STACK",
+    },
+    {
+      id: 7,
+      img: "/Nike.jpg",
+      title: "NIKE CLONE",
+      work: "FRONTEND",
+    },
+    {
+      id: 8,
+      img: "/netflix.jpg",
+      title: "NETFLIX CLONE",
+      work: "FRONTEND",
+    },
+    {
+      id: 9,
+      img: "/bookstore.jpg",
+      title: "BOOK STORE",
+      work: "FULL STACK",
     },
   ];
 

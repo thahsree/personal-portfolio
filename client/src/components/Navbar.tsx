@@ -10,7 +10,10 @@ function Navbar() {
       <div className="border border-coppergold bg-coppergold/30 text-textColor px-6 py-3 backdrop-blur-lg max-sm:px-2">
         <div className="flex gap-7 items-center max-md:justify-between">
           <h3
-            onClick={() => navigate("/")}
+            onClick={() => {
+              navigate("/");
+              isHamClicked && setIsHamClicked(false);
+            }}
             className="font-thin text-2xl font-baloo cursor-pointer max-sm:text-xl"
           >
             thashree.
