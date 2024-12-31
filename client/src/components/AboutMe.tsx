@@ -1,4 +1,26 @@
 function AboutMe() {
+  const arr = [
+    {
+      index: 1,
+      img: "/github.svg",
+      link: "https://github.com/thahsree",
+    },
+    {
+      index: 2,
+      img: "/linkedin.svg",
+      link: "https://linkedin.com/in/thashreefch",
+    },
+    {
+      index: 3,
+      img: "/instagram.svg",
+      link: "https://www.instagram.com/tha.shree_/",
+    },
+    {
+      index: 4,
+      img: "/facebook.svg",
+      link: "https://www.facebook.com/",
+    },
+  ];
   return (
     <div className="flex flex-col w-full h-full mt-24 max-sm:mt-10">
       <div className="flex items-center gap-2">
@@ -38,7 +60,11 @@ function AboutMe() {
         </p>
       </div>
       <div className="w-full flex flex-wrap gap-5 justify-between mt-5 max-sm:flex-col max-sm:items-center">
-        <div className="border border-coppergold bg-coppergold w-[30%] flex justify-between items-center px-2 max-sm:min-w-[200px]">
+        <a
+          href="https://github.com/thahsree"
+          target="_blank"
+          className="border border-coppergold bg-coppergold w-[30%] flex justify-between items-center px-2 max-sm:min-w-[200px]"
+        >
           <div className="flex items-center gap-1">
             <div className="w-[30px] h-[30px] p-1">
               <img src="/github.svg" alt="" className="w-full h-full" />
@@ -54,8 +80,12 @@ function AboutMe() {
               className="w-full h-full -rotate-90 hover:animate-rotateArrow cursor-pointer"
             />
           </div>
-        </div>
-        <div className="border border-coppergold bg-coppergold w-[30%] flex justify-between items-center px-2 max-sm:min-w-[200px]">
+        </a>
+        <a
+          href="https://linkedin.com/in/thashreefch"
+          target="_blank"
+          className="border border-coppergold bg-coppergold w-[30%] flex justify-between items-center px-2 max-sm:min-w-[200px]"
+        >
           <div className="flex items-center gap-1">
             <div className="w-[30px] h-[30px] p-2">
               <img src="/linkedin.svg" alt="" className="w-full h-full" />
@@ -71,8 +101,12 @@ function AboutMe() {
               className="w-full h-full -rotate-90 hover:animate-rotateArrow cursor-pointer"
             />
           </div>
-        </div>
-        <div className="border border-coppergold bg-coppergold w-[30%] flex justify-between items-center px-2 max-sm:min-w-[200px]">
+        </a>
+        <a
+          href="https://www.instagram.com/tha.shree_/"
+          target="_blank"
+          className="border border-coppergold bg-coppergold w-[30%] flex justify-between items-center px-2 max-sm:min-w-[200px]"
+        >
           <div className="flex items-center gap-1">
             <div className="w-[30px] h-[30px] p-1">
               <img src="/instagram.svg" alt="" className="w-full h-full" />
@@ -88,7 +122,7 @@ function AboutMe() {
               className="w-full h-full -rotate-90 hover:animate-rotateArrow cursor-pointer"
             />
           </div>
-        </div>
+        </a>
       </div>
     </div>
   );

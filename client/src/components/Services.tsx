@@ -11,7 +11,7 @@ function Services() {
           specifications, designed to deliver a flawless user experience.
         </p>
         <div className="flex items-center gap-3 mt-5">
-          <div className="w-[30px] h-[30px] rounded-full p-1 bg-navBg border border-coppergold flex items-center justify-center cursor-pointer text-xl font-extrabold">
+          <div className="w-[30px] h-[30px] rounded-full p-1 bg-coppergold2 border border-coppergold flex items-center justify-center cursor-pointer text-xl font-extrabold">
             <img src="/arrowupright.svg" alt="arrow" />
           </div>
           <h5 className="text-base font-poppins font-light">
@@ -30,7 +30,7 @@ function Services() {
           your brand voice and customer needs.
         </p>
         <div className="flex items-center gap-3 mt-5">
-          <div className="w-[30px] h-[30px] rounded-full p-1 bg-navBg border border-coppergold flex items-center justify-center cursor-pointer text-xl font-extrabold">
+          <div className="w-[30px] h-[30px] rounded-full p-1 bg-coppergold2 border border-coppergold flex items-center justify-center cursor-pointer text-xl font-extrabold">
             <img src="/arrowupright.svg" alt="" />
           </div>
           <h5 className="text-base font-poppins font-light">ABOUT DESIGN</h5>
@@ -47,7 +47,7 @@ function Services() {
           you to the forefront of organic search results.
         </p>
         <div className="flex items-center gap-3 mt-5">
-          <div className="w-[30px] h-[30px] rounded-full p-1 bg-navBg border border-coppergold flex items-center justify-center cursor-pointer text-xl font-extrabold">
+          <div className="w-[30px] h-[30px] rounded-full p-1 bg-coppergold2 border border-coppergold flex items-center justify-center cursor-pointer text-xl font-extrabold">
             <img src="/arrowupright.svg" alt="" />
           </div>
           <h5 className="text-base font-poppins font-light">ABOUT SEO</h5>

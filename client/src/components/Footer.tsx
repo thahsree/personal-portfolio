@@ -63,35 +63,51 @@ function Footer() {
               {/* github */}
 
               <li className="flex gap-5 items-center">
-                <div className="w-[40px] h-[40px] bg-coppergold border border-coppergold rounded-full overflow-hidden p-1">
+                <a
+                  href="https://github.com/thahsree"
+                  target="_blank"
+                  className="w-[40px] h-[40px] bg-coppergold border border-coppergold rounded-full overflow-hidden p-1"
+                >
                   <img src="/github.svg" alt="" className="w-full h-full" />
-                </div>
+                </a>
                 <h3 className="text-sm font-montserrat">GITHUB</h3>
               </li>
 
               {/* linkedin */}
 
               <li className="flex gap-5 items-center">
-                <div className="w-[40px] h-[40px] bg-coppergold border border-coppergold rounded-full overflow-hidden p-2">
+                <a
+                  href="https://linkedin.com/in/thashreefch"
+                  target="_blank"
+                  className="w-[40px] h-[40px] bg-coppergold border border-coppergold rounded-full overflow-hidden p-2"
+                >
                   <img src="/linkedin.svg" alt="" className="w-full h-full" />
-                </div>
+                </a>
                 <h3 className="text-sm font-montserrat">LINKEDIN</h3>
               </li>
 
               {/* instagram */}
               <li className="flex gap-5 items-center">
-                <div className="w-[40px] h-[40px] bg-coppergold border border-coppergold rounded-full overflow-hidden p-1">
+                <a
+                  href="https://www.instagram.com/tha.shree_/"
+                  target="_blank"
+                  className="w-[40px] h-[40px] bg-coppergold border border-coppergold rounded-full overflow-hidden p-1"
+                >
                   <img src="/instagram.svg" alt="" className="w-full h-full" />
-                </div>
+                </a>
                 <h3 className="text-sm font-montserrat">INSTAGRAM</h3>
               </li>
 
               {/* facebook */}
 
               <li className="flex gap-5 items-center">
-                <div className="w-[40px] h-[40px] bg-coppergold border border-coppergold rounded-full overflow-hidden ">
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  className="w-[40px] h-[40px] bg-coppergold border border-coppergold rounded-full overflow-hidden "
+                >
                   <img src="/facebook.svg" alt="" className="w-full h-full" />
-                </div>
+                </a>
                 <h3 className="text-sm font-montserrat">FACEBOOK</h3>
               </li>
             </ul>

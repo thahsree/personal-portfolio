@@ -1,9 +1,25 @@
 function Introduction() {
   const social = [
-    { index: 1, img: "/github.svg" },
-    { index: 2, img: "/linkedin.svg" },
-    { index: 3, img: "/instagram.svg" },
-    { index: 4, img: "/facebook.svg" },
+    {
+      index: 1,
+      img: "/github.svg",
+      link: "https://github.com/thahsree",
+    },
+    {
+      index: 2,
+      img: "/linkedin.svg",
+      link: "https://linkedin.com/in/thashreefch",
+    },
+    {
+      index: 3,
+      img: "/instagram.svg",
+      link: "https://www.instagram.com/tha.shree_/",
+    },
+    {
+      index: 4,
+      img: "/facebook.svg",
+      link: "https://www.facebook.com/",
+    },
   ];
   return (
     <div className="flex w-full flex-col mt-44 gap-20 max-sm:mt-20">
@@ -32,12 +48,14 @@ function Introduction() {
           </p>
           <div className="flex px-14 pt-5 gap-5 max-sm:px-5">
             {social.map((item) => (
-              <div
+              <a
                 className="w-[40px] h-[40px] border border-coppergold p-1 rounded-full bg-coppergold2 cursor-pointer overflow-hidden"
                 key={item.index}
+                href={item.link}
+                target="_blank"
               >
                 <img src={item.img} alt="social-icon" />
-              </div>
+              </a>
             ))}
           </div>
         </div>
