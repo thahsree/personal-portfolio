@@ -9,54 +9,63 @@ function Works() {
       img: "/MERN-e-comm.jpg",
       title: "E-COMM PROJECT",
       work: "FULL STACK",
+      link: "https://github.com/thahsree/clothes-shopping",
     },
     {
       id: 2,
       img: "/booking.jpg",
       title: "BOOKING.COM CLONE",
       work: "FULL STACK",
+      link: "https://github.com/thahsree/Hotel_Booking",
     },
     {
       id: 3,
       img: "/next-js.jpg",
       title: "E-COMM PROJECT",
-      work: "FRONTEND",
+      work: "FRONT END",
+      link: "https://github.com/thahsree/next-js-ecommerce",
     },
     {
       id: 4,
       img: "/tourism.jpg",
       title: "TOURISM WEBSITE",
-      work: "FRONTEND",
+      work: "FRONT END",
+      link: "https://github.com/thahsree/-kerala_tourism",
     },
     {
       id: 5,
       img: "/promptopia.jpg",
       title: "PROMPT GENERATING APP",
       work: "FULL STACK",
+      link: "https://github.com/thahsree/nextjs-project1",
     },
     {
       id: 6,
       img: "/weather.jpg",
       title: "LIVE WEATHER APP",
       work: "FULL STACK",
+      link: "https://github.com/thahsree/weatherApp",
     },
     {
       id: 7,
       img: "/Nike.jpg",
       title: "NIKE CLONE",
       work: "FRONTEND",
+      link: "https://github.com/thahsree/nike.com",
     },
     {
       id: 8,
       img: "/netflix.jpg",
       title: "NETFLIX CLONE",
       work: "FRONTEND",
+      link: "https://github.com/thahsree/netflix_clone",
     },
     {
       id: 9,
       img: "/bookstore.jpg",
       title: "BOOK STORE",
       work: "FULL STACK",
+      link: "https://github.com/thahsree/Book-Store-frontend",
     },
   ];
 
@@ -76,11 +85,14 @@ function Works() {
       </div>
       <div className="flex flex-wrap mt-16 justify-center gap-12 w-full max-sm:px-5">
         {works.map((item, index) => (
-          <div
+          <a
             key={index}
             className="w-[45%] h-[500px] relative border border-coppergold cursor-pointer max-sm:w-full"
             onMouseEnter={() => setShowArrow(index)}
             onMouseLeave={() => setShowArrow(-1)}
+            href={item.link}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <div
               className={`absolute w-[40px] h-[40px] flex items-center justify-center top-[50%] left-[50%] z-10 border border-coppergold2 rounded-full bg-[#463a29d6] transition-all duration-500 ease-in-out ${
@@ -116,7 +128,7 @@ function Works() {
                 </h3>
               </div>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </div>

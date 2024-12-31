@@ -11,24 +11,28 @@ function SelectedWorks() {
       img: "/MERN-e-comm.jpg",
       title: "E-COMM PROJECT",
       work: "FULL STACK",
+      link: "https://github.com/thahsree/clothes-shopping",
     },
     {
       id: 2,
       img: "/booking.jpg",
       title: "BOOKING.COM CLONE",
       work: "FULL STACK",
+      link: "https://github.com/thahsree/Hotel_Booking",
     },
     {
       id: 3,
       img: "/next-js.jpg",
       title: "E-COMM PROJECT",
       work: "FRONT END",
+      link: "https://github.com/thahsree/next-js-ecommerce",
     },
     {
       id: 4,
       img: "/tourism.jpg",
       title: "TOURISM WEBSITE",
       work: "FRONT END",
+      link: "https://github.com/thahsree/-kerala_tourism",
     },
   ];
   return (
@@ -52,11 +56,14 @@ function SelectedWorks() {
 
       <div className="flex flex-wrap mt-16 justify-center gap-12 w-full max-sm:mt-3">
         {projects.map((item, index) => (
-          <div
+          <a
             key={index}
             className="w-[45%] h-[500px] relative border border-coppergold cursor-pointer max-sm:w-full"
             onMouseEnter={() => setShowArrow(index)}
             onMouseLeave={() => setShowArrow(-1)}
+            href={item.link}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <div
               className={`absolute w-[40px] h-[40px] flex items-center justify-center top-[50%] left-[50%] z-10 border border-coppergold2 rounded-full bg-[#463a29d6] transition-all duration-500 ease-in-out ${
@@ -90,7 +97,7 @@ function SelectedWorks() {
                 <h3 className="text-sm font-poppins font-light">{item.work}</h3>
               </div>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </div>
