@@ -1,26 +1,4 @@
 function AboutMe() {
-  const arr = [
-    {
-      index: 1,
-      img: "/github.svg",
-      link: "https://github.com/thahsree",
-    },
-    {
-      index: 2,
-      img: "/linkedin.svg",
-      link: "https://linkedin.com/in/thashreefch",
-    },
-    {
-      index: 3,
-      img: "/instagram.svg",
-      link: "https://www.instagram.com/tha.shree_/",
-    },
-    {
-      index: 4,
-      img: "/facebook.svg",
-      link: "https://www.facebook.com/",
-    },
-  ];
   return (
     <div className="flex flex-col w-full h-full mt-24 max-sm:mt-10">
       <div className="flex items-center gap-2">
