@@ -22,10 +22,10 @@ function SelectedWorks() {
     },
     {
       id: 3,
-      img: "/next-js.jpg",
-      title: "E-COMM PROJECT",
-      work: "FRONT END",
-      link: "https://github.com/thahsree/next-js-ecommerce",
+      img: "/weather.jpg",
+      title: "LIVE WEATHER APP",
+      work: "FULL STACK",
+      link: "https://github.com/thahsree/weatherApp",
     },
     {
       id: 4,
@@ -78,23 +78,19 @@ function SelectedWorks() {
                 className="w-full h-full p-2 "
               />
             </div>
-            <div
-              className="absolute inset-0 opacity-30 z-10"
-              style={{
-                background: "radial-gradient(circle, #c8c1b6, #443622c0)",
-              }}
-            ></div>
             <img
               src={item.img}
               alt={item.title}
               className="w-full h-full object-fill z-0"
             />
             <div className="absolute flex w-[100%] h-[20%] bottom-[0%] left-0 z-30  px-10 py-5 max-sm:px-0 max-sm:-bottom-5">
-              <div className="bg-[#382a1e86] px-4 flex justify-between items-center border border-coppergold bg-opacity-5 backdrop-blur-[10px] w-full h-full">
-                <h3 className="text-xl font-poppins text-textColor font-base max-sm:text-base">
+              <div className="bg-[#382a1e86] px-4 flex justify-between items-center border border-coppergold bg-opacity-2 backdrop-blur-[10px] w-full h-full">
+                <h3 className="text-lg font-montserrat text-headingColor font-semibold max-sm:text-base">
                   {item.title}
                 </h3>
-                <h3 className="text-sm font-poppins font-light">{item.work}</h3>
+                <h3 className="text-sm font-montserrat font-base text-headingColor">
+                  {item.work}
+                </h3>
               </div>
             </div>
           </a>
