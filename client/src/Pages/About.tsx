@@ -10,7 +10,7 @@ function About() {
       <div className="sticky top-32 h-[500px] mt-56 w-[40%] px-12 max-sm:block max-sm:relative max-sm:w-full max-sm:mt-2 max-sm:px-5">
         <div className="h-[500px] w-[500px] max-sm:w-full">
           <img
-            src="/Me1.jpeg"
+            src="/Me2.jpeg"
             alt=""
             className="w-full h-full object-contain"
           />
